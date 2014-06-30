@@ -1,0 +1,90 @@
+a {
+	text-decoration: none;
+	color: lightgray;
+}
+
+body {
+	background-size: 80px 80px; 
+	background-image: -webkit-gradient( linear, 0% 0%, 100% 100%, 
+		color-stop(25%, rgba(0, 0, 0, 0.1)), 
+		color-stop(25%, rgba(0, 0, 0, 0)), 
+		color-stop(50%, rgba(0, 0, 0, 0)), 
+		color-stop(50%, rgba(0, 0, 0, 0.1)), 
+		color-stop(75%, rgba(0, 0, 0, 0.1)), 
+		color-stop(75%, rgba(0, 0, 0, 0)), 
+		color-stop(100%, rgba(0, 0, 0, 0))); 
+	background-image: -moz-linear-gradient(left top, rgba(0, 0, 0, 0.1) 25%, 
+		rgba(0, 0, 0, 0) 25%, 
+		rgba(0, 0, 0, 0) 50%, 
+		rgba(0, 0, 0, 0.1) 50%, 
+		rgba(0, 0, 0, 0.1) 75%, 
+		rgba(0, 0, 0, 0) 75%, 
+		rgba(0, 0, 0, 0)); 
+	background-image: linear-gradient(left top, rgba(0, 0, 0, 0.1) 25%, 
+		rgba(0, 0, 0, 0) 25%, 
+		rgba(0, 0, 0, 0) 50%, 
+		rgba(0, 0, 0, 0.1) 50%, 
+		rgba(0, 0, 0, 0.1) 75%, 
+		rgba(0, 0, 0, 0) 75%, 
+		rgba(0, 0, 0, 0)); 
+	background-color: #555;
+	color: white;
+	font-family: sspro;
+	text-align: center;
+}
+
+footer {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 20px;
+	
+}
+
+h1 {
+	font-family: Chunkfive;
+	text-shadow: 3px 3px 5px #757575;
+}
+
+.container {
+	width: 60%;
+	margin-top: 2em;
+	margin-left: 20%;
+	margin-right: 20%;
+	/*background-color: darkblue;*/
+	background-color: rgba(189, 202, 224, .5);
+	padding: 20px;
+	border-radius: 20px;
+	-webkit-box-shadow: 5px 5px 10px 5px #37344D;
+	box-shadow: 5px 5px 10px 5px #37344D;
+}
+
+.logo{
+	border-radius: 15px;
+}
+
+@media screen and (max-width:500px)	{
+	.container { 
+		width: 360px; 
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	footer {
+		width: 360px;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 20px;
+	}
+}
+
+@font-face {
+font-family: sspro;
+src: url(./fonts/SourceSansPro-Regular.otf);
+font-weight:bold;
+}
+
+@font-face {
+font-family: Chunkfive;
+src: url(./fonts/Chunkfive.otf);
+font-weight:bold;
+}
